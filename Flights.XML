@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > 
+<suite name="FLights_App_Test_Reports">
+	<parameter name="url" value="http://flights.qedgetech.com"></parameter>
+	<test name="Login_test">
+		<classes>
+			<class name="Utills.AppUtills"></class>
+		</classes>
+	</test>
+
+<test name="Login_Testcase">
+	<parameter name="email" value="bhanubabul53@gmil.com"></parameter>
+	<parameter name="pwd" value="Qedge123#$@!"></parameter>
+	<parameter name="date" value="25-June-2025"></parameter>
+	<classes>
+		<class name="FlightsApp_Library.Login_Test">
+			
+		</class>
+	</classes>
+</test>
+
+	
+</suite>
